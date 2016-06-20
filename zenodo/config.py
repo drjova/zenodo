@@ -182,6 +182,8 @@ DEPOSIT_DEFAULT_JSONSCHEMA = 'deposits/records/record-v1.0.0.json'
 #: Angular Schema Form for deposit
 DEPOSIT_DEFAULT_SCHEMAFORM = 'json/zenodo_deposit/deposit_form.json'
 
+DEPOSIT_RECORDS_API = '/api/deposits/{pid_value}'
+
 #: Endpoints for deposit.
 DEPOSIT_REST_ENDPOINTS = dict(
     depid=dict(
